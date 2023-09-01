@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --black: #000000;
+    --gray: #808080;
+    --pink: #ffc0cb;
+    --white: #ffffff;
+}
+
+body {
+    /* width: 1728px;
+    height: 1116.5px; */
+    background-color: #202020;
+}
+
+.flex {
+    display: flex;
+}
+
+.side-bar {
+    width: 25vw;
+    height: 90vh;
+    background-color: #000000;
+    padding-left: 40px;
+    color: white;
+}
+
+.spotify-logo {
+    width: 140.5760955810547px;
+    height: 40.525787353515625px;
+    margin-top: 20.2918701171875px;
+}
+
+.top {
+    margin-top: 10px;
+}
+
+.top a {
+    margin-left: 20px;
+}
+
+.top img {
+    width: 20px;
+}
+
+/* navbar section 2 */
+.sidebar-section2 {
+    margin-top: 50px;
+}
+
+.sidebar-section2 img {
+    border-radius: 2px;
+}
+
+.plus-icon {
+    background-color: white;
+}
+
+.hotspot-icon {
+    background: #004638;
+    padding: 4px;
+}
+
+/* navbar section 3*/
+.sidebar-section3 {
+    margin-top: 40px;
+}
+
+.sidebar-section3 p {
+    margin-top: 15px;
+}
+
+.download-icon {
+    margin-top: 40px;
+}
+
+.download-div a {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+
+/* main section */
+.main-section {
+    width: 75vw;
+    height: 87vh;
+    /* padding-left: 20px; */
+    margin-top: 20px;
+    color: white;
+    overflow-y: scroll;
+}
+
+.top-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aero img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: #131313;
+    margin-left: 10px;
+}
+
+.user {
+    margin-right: 20px;
+}
+
+
+/* middle section */
+.good-morning {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.sticker-div {
+    width: 950px;
+    /* height: 150px; */
+    padding-left: 30px;
+}
+
+.a123 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.sticker {
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.sticker img {
+    height: 50px;
+}
+
+/* song card */
+.card-div{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 950px;
+}
+.card-div h3{
+    margin-bottom: 20px;
+}
+.card-div-cont1{
+    margin-top: 20px;
+}
+.song-card {
+    width: 210.29176330566406px;
+    height: 240.52471923828125px;
+    background-color: #181818;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.song-card img{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.card-text{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card-p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.card-text span{
+    font-size: 14px;
+}
+/* footer */
+.footer {
+    width: 100%;
+    height: 7vh;
+    background: 181818ff;
+    box-shadow: rgba(0, 0, 0, 1) 0px 4px 15px;
+/*  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.song-image-icon{
+    width: 40px;
+}
+.footer-left-text .footer-left-text1{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.footer-left-text .footer-left-text2{
+    color: white;
+    font-size: 12px;
+}
+/* footer middle icons */
+.pause-icon{
+    width: 30px;
+}
+.song-progress-bar{
+    width: 500px;
+    height: 5px;
+    background-color: red;
+}
+/* footer right */
+.footer-right{
+    margin-right: 20px;
+}
+
+/* footer last */
+.footer-last {
+    width: 100%;
+    height: 3vh;
+    background: #1ed760;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 13px;
+    gap: 5px;
+}
